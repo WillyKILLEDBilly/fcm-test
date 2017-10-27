@@ -6,7 +6,6 @@ messaging.requestPermission()
     .then(function() {
         console.log('Notification permission granted.');
         return messaging.getToken();
-        console.log('dsadsa');
     })
     .then(function(token) {
         console.log(token);
